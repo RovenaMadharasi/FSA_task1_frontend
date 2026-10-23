@@ -1,0 +1,81 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #222;
+}
+
+.container {
+  max-width: 650px;
+  margin: 50px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 26px;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+button {
+  padding: 10px 16px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  background: #f8f8f8;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e8edf5;
+}
+
+.id-action {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+input {
+  width: 85px;
+  padding: 9px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+}
+
+.delete {
+  color: #b42318;
+}
+
+.output {
+  margin-top: 30px;
+  border-top: 1px solid #ddd;
+  padding-top: 15px;
+}
+
+.output h2 {
+  font-size: 18px;
+}
+
+pre {
+  padding: 15px;
+  background: #f1f3f5;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  min-height: 60px;
+}
